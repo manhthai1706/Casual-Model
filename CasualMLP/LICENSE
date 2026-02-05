@@ -1,0 +1,46 @@
+MIT License
+
+Copyright (c) 2024 CausalMLP Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Third-Party Licenses
+
+This software incorporates ideas and algorithms from the following projects:
+
+### GraN-DAG
+- Repository: https://github.com/kurowasan/GraN-DAG
+- License: MIT License
+- Citation: Lachapelle et al., "Gradient-Based Neural DAG Learning" (ICLR 2020)
+
+### Causica/DECI
+- Repository: https://github.com/microsoft/causica
+- License: MIT License
+- Citation: Geffner et al., "Deep End-to-end Causal Inference" (NeurIPS 2022)
+
+### NOTEARS
+- Original paper: Zheng et al., "DAGs with NO TEARS" (NeurIPS 2018)
+- The DAG constraint formulation h(A) = tr(e^(A∘A)) - n is based on this work.
+
+### Sachs Dataset
+- Original paper: Sachs et al., "Causal Protein-Signaling Networks Derived from 
+  Multiparameter Single-Cell Data" (Science, 2005)
+- The protein signaling network ground truth is used for benchmarking.
